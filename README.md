@@ -8,7 +8,7 @@
 
 A modern, responsive portfolio website built with React, Vite, and Framer Motion. Showcases projects, skills, and professional experience as a Full Stack Developer.
 
-[View Live Demo](https://hasnaainali.github.io/hasnain-ali-portfolio)
+**Live Demo:** [hasnaainali.github.io/hasnain-ali-portfolio](https://hasnaainali.github.io/hasnain-ali-portfolio)
 
 ---
 
@@ -239,9 +239,9 @@ Contributions are welcome. Please follow these guidelines:
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-# Connect
-https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white
-https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white
-https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white
-https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white
+## Connect with Me
 
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hasnaainali)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hasnaainali)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/comsats_atk_vibes)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hasnaainali5@gmail.com)
