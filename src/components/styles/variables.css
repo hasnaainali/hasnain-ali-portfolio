@@ -1,0 +1,108 @@
+:root {
+    /* Color Theme */
+    --majorelle-blue: #6e44ff;
+    --soft-periwinkle: #b892ff;
+    --blush-pop: #ffc2e2;
+    --cotton-candy: #ff90b3;
+    --light-coral: #ef7a85;
+
+    --primary-color: #6e44ff;
+    --secondary-color: #b892ff;
+    --accent-color: #ff90b3;
+
+    --background-dark: #0a0f1c;
+    --background-card: rgba(255, 255, 255, 0.03);
+    --text-light: #ffffff;
+    --text-gray: #b0b0b0;
+    --text-secondary: rgba(255, 255, 255, 0.6);
+
+    --border-glass: rgba(255, 255, 255, 0.06);
+    --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.4);
+
+    --font-serif: "DM Serif Display", serif;
+    --font-sans: "Manrope", "Inter", sans-serif;
+
+    --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transition-slow: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.section-tag {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 50px;
+    background: rgba(110, 68, 255, 0.08);
+    border: 1px solid rgba(110, 68, 255, 0.15);
+    color: var(--soft-periwinkle);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    font-family: var(--font-serif);
+    font-size: 44px;
+    font-weight: 700;
+    color: var(--text-light);
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.section-title .highlight {
+    background: linear-gradient(135deg, var(--majorelle-blue), var(--soft-periwinkle), var(--cotton-candy));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% 200%;
+    animation: gradientShift 4s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.section-subtitle {
+    color: var(--text-secondary);
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.section {
+    padding: 100px 24px;
+    position: relative;
+}
+
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 32px;
+    }
+
+    .section {
+        padding: 70px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 26px;
+    }
+
+    .section {
+        padding: 50px 16px;
+    }
+}
