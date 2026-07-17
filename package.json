@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hasnaainali.github.io/portfolio-website",
+  "homepage": "https://hasnaainali.github.io/hasnain-ali-portfolio",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
