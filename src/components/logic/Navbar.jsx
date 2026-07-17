@@ -41,7 +41,7 @@ export default function Navbar() {
 
     const handleDownloadCV = () => {
         const link = document.createElement("a");
-        link.href = "/resume/Hasnain_Ali_Resume.pdf";
+        link.href = `${import.meta.env.BASE_URL}resume/Hasnain_Ali_Resume.pdf`;
         link.download = "Hasnain_Ali_Resume.pdf";
         document.body.appendChild(link);
         link.click();
